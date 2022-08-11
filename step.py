@@ -1,25 +1,14 @@
-import allure
-from allure_commons.types import AttachmentType
 from selenium.webdriver import ActionChains
-from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-from selenium.webdriver.support import expected_conditions as ec
 from selenium.webdriver.support.ui import WebdriverWait
 import time
 
-#p = r'C:\Users\User\OneDrive\Рабочий стол\project_Ax400\chromedriver_py\chromedriver.exe' #расположение драйвера
-#driver = webdriver.Chrome(executable_path=p) # запуск драйвера
-#driver.get("https://www.google.com/") # вход на сайт
-#driver.get('https://www.selenium.dev/documentation/webdriver/actions_api/mouse/')
-#driver.get("https://demoqa.com/")
-#driver.maximize_window()
 
 def browserOpen():
-    p = r'C:\Users\User\OneDrive\Рабочий стол\project_Ax400\chromedriver_py\chromedriver.exe'  # расположение драйвера
     global driver
-    driver = webdriver.Chrome(p)
+    driver = webdriver.Chrome()
     driver.get("https://demoqa.com/")
     driver.maximize_window()
 

@@ -1,9 +1,7 @@
 import time
 import step
-import allure
-from allure_commons.types import AttachmentType
 
-
+#автотест проверяет нажатие кнопок "Buttons" в меню "Elements" на сайте demoqa.com
 
 step.browserOpen()
 step.pressbuttonText("Elements")

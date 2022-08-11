@@ -1,9 +1,7 @@
-from selenium import webdriver
-from selenium.webdriver.common.by import By
-from selenium.webdriver.common.keys import Keys
 import time
 import step
 
+#автотест проверяет заполнение всех полей в разделе "Text Box" в меню "Elements" на сайте demoqa.com
 
 step.browserOpen()
 step.pressbuttonText("Elements")

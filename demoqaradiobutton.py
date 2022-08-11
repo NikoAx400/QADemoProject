@@ -1,6 +1,8 @@
 import time
 import step
 
+#автотест проверяет нажатие радиокнопок в разделе "Radio Button" в меню "Elements" на сайте demoqa.com
+
 step.browserOpen()
 step.pressbuttonText("Elements")
 step.pressbuttonText("Radio Button")

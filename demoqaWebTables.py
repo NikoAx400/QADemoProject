@@ -1,6 +1,8 @@
 import time
 import step
 
+"""автотеcт проверяет поиск по таблице и открытие регистрационной формы
+в разделе "Web tables" в меню "Elements" на сайте demoqa.com """
 
 step.browserOpen()
 step.pressbuttonText("Elements")
